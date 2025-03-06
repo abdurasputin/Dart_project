@@ -104,18 +104,18 @@ void main(){
   //   }
   // }
 
-  stdout.write("Enter a number: ");
-  String? input = stdin.readLineSync();
-  int? number = int.tryParse(input??"");
+  // stdout.write("Enter a number: ");
+  // String? input = stdin.readLineSync();
+  // int? number = int.tryParse(input??"");
   
-  if (number == null){
-    print("Invalid input !");
-  } else {
-    print("$number Multiplication Table :");
-    for (int i = 1 ; i < 13 ; i++){
-      int sum = (number * i) ;
-      print("$number x $i = $sum");
-    }
-  }
+  // if (number == null){
+  //   print("Invalid input !");
+  // } else {
+  //   print("$number Multiplication Table :");
+  //   for (int i = 1 ; i < 13 ; i++){
+  //     int sum = (number * i) ;
+  //     print("$number x $i = $sum");
+  //   }
+  // }
 
 }
